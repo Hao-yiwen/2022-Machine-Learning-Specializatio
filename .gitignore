@@ -1,0 +1,78 @@
+# 忽略虚拟环境文件夹
+venv/
+.env/
+
+# 忽略操作系统自动生成的文件
+**/.DS_Store
+Thumbs.db
+
+# Python 缓存文件
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# 个人化配置
+*.env
+*.local
+
+# Jupyter Notebook 检查点文件夹
+**/.ipynb_checkpoints/
+
+# 生成的文档
+docs/_build/
+
+# 忽略日志文件和数据库
+*.log
+*.sql
+*.sqlite3
+
+# 忽略测试覆盖率、测试报告和 profiling 数据
+htmlcov/
+.coverage
+.tox/
+.nox/
+*.cover
+*.py,cover
+.hypothesis/
+*.prof
+
+# 忽略 mypy 类型检查报告
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# 忽略 pip 缓存文件
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 忽略 pyenv 文件夹（如果使用 pyenv 管理 Python 版本）
+.pyenv/
+
+# 忽略 tox 测试环境
+.tox/
+
+# 忽略 coverage.py 的输出目录
+.coverage
+.cache
+
+# 忽略 pytest 缓存文件
+**/.pytest_cache/
+
+# 忽略 IDE 配置文件（PyCharm, VSCode 等）
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# 忽略 Pycharm 的工作区文件
+*.iml
+
+# 忽略 Parcel 缓存文件
+.cache/
+
+# 忽略 Sphinx 文档生成时的构建目录
+_build/
+
+# 忽略虚拟文档
+**/.virtual_documents/
