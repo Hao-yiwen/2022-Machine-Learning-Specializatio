@@ -14,3 +14,6 @@ Machine learning specialization课程共分为三部分
 - 第二部分：Advanced Learning Algorithms  
 - 第三部分：Unsupervised Learning:Recommenders, Reinforcement Learning   
 
+## 代码位置
+
+所有的`Jupyter Notebook`文件都在`work`目录下面，直接查看对应的目录`Jupyter Notebook`则无法加载对应数据和图片资源。
