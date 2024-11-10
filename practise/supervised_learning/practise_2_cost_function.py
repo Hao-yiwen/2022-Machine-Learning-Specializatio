@@ -24,15 +24,10 @@ x_train = np.array([1.0, 1.7, 2.0, 2.5, 3.0, 3.2])
 y_train = np.array([250, 300, 480, 430, 630, 730])
 plt.close('all')
 
-from ipywidgets import interact
+fig,ax,dyn_items = plt_stationary(x_train, y_train)
+updater = plt_update_onclick(fig, ax, dyn_items, x_train, y_train)
 
-# 定义滑块范围
-w_range = (0, 100)
-
-# 使用 @interact 创建滑块并定义函数
-@interact(w=(*w_range, 10), continuous_update=False)
-def update_plot(w):
-    print(f"滑块值: {w}")
+soup_bowl()
 
 if __name__ == '__main__':
     pass
