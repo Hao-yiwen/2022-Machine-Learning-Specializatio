@@ -168,5 +168,5 @@ class plt_one_addpt_onclick:
         self.fig.canvas.draw()
 
     def resize_sq(self, bcid):
-        """ 调整复选框大小 """
+        """Adjust the checkbox size"""
         pass
