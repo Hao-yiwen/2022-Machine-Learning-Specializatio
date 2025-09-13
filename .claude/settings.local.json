@@ -5,7 +5,8 @@
       "Bash(/opt/anaconda3/bin/conda create -n machinelearning python=3.10 -y)",
       "Read(//opt/anaconda3/bin/**)",
       "Bash(conda activate:*)",
-      "Bash(conda install:*)"
+      "Bash(conda install:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
