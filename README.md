@@ -1,45 +1,43 @@
 # 2022-Machine-Learning-Specialization
 
-## 课程链接
-
-### 监督学习
-
-https://www.coursera.org/learn/machine-learning/lecture/jKBHE/
+Andrew Ng机器学习专项课程学习笔记和练习代码。
 
 ## 课程大纲
 
-Machine learning specialization课程共分为三部分
+- Supervised Machine Learning: Regression and Classification
+- Advanced Learning Algorithms
+- Unsupervised Learning: Recommenders, Reinforcement Learning
 
-- 第一部分：Supervised Machine Learning:Regression and Classification
-- 第二部分：Advanced Learning Algorithms
-- 第三部分：Unsupervised Learning:Recommenders, Reinforcement Learning
+课程链接：https://www.coursera.org/learn/machine-learning/
 
-## 代码位置
+## 项目结构
 
-所有的`Jupyter Notebook`文件都在`work`目录下面，直接查看对应的目录`Jupyter Notebook`则无法加载对应数据和图片资源。
+- `work/` - 课程官方代码
+- `practise/` - 学习时的练习代码
+  - `supervised_learning/` - 监督学习（线性回归、逻辑回归等）
+  - `Advanced Learning Algorithms/` - 深度学习（CNN、RNN、Transformer等）
+  - `py/` - Python工具脚本
+- `images/` - 图片资源
 
-## 代码运行
+## 环境配置（Conda）
 
-1. 创建虚拟环境
+```bash
+# 创建环境
+conda create -n machinelearning python=3.10 -y
 
-```
-python -m venv venv
-```
+# 激活环境
+conda activate machinelearning
 
-2. 激活虚拟环境
-
-```
-source venv/bin/activate
-```
-
-3. 安装依赖
-
-```
-pip install -r requirements.txt
+# 安装依赖
+conda install numpy pandas matplotlib scikit-learn jupyter tensorflow -y
 ```
 
-5. 保存依赖
+## 使用方法
 
-```
-pip freeze > requirements.txt
+```bash
+# 激活环境
+conda activate machinelearning
+
+# 启动Jupyter
+jupyter notebook
 ```

@@ -6,7 +6,8 @@
       "Read(//opt/anaconda3/bin/**)",
       "Bash(conda activate:*)",
       "Bash(conda install:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(tree:*)"
     ],
     "deny": [],
     "ask": []
