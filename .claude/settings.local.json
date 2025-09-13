@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo $PATH)",
+      "Bash(/opt/anaconda3/bin/conda create -n machinelearning python=3.10 -y)",
+      "Read(//opt/anaconda3/bin/**)",
+      "Bash(conda activate:*)",
+      "Bash(conda install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "outputStyle": "Explanatory"
+}
